@@ -84,6 +84,17 @@ p {
 .w-full { width: 100%; }
 .h-full { height: 100%; }
 
+.flex-responsive {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .flex-responsive {
+    flex-direction: column;
+  }
+}
+
 /* Scrollbar styling for a cleaner look */
 ::-webkit-scrollbar {
   width: 8px;

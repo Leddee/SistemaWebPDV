@@ -46,7 +46,7 @@ export default function DisplayView() {
       </div>
 
       {/* Columns */}
-      <div style={{display: 'flex', flex: 1}}>
+      <div className="flex-responsive" style={{flex: 1}}>
         
         {/* Preparing */}
         <div style={{flex: 1, borderRight: '2px solid #333', display: 'flex', flexDirection: 'column'}}>

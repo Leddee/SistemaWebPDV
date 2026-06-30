@@ -82,7 +82,7 @@ export default function KitchenView() {
     <div className="flex-col gap-6 w-full h-full">
       <h1>Cozinha - Controle de Preparação</h1>
       
-      <div className="flex gap-6 h-full">
+      <div className="flex-responsive gap-6 h-full">
         
         {/* Recebidos Column */}
         <div className="flex-col" style={{flex: 1, backgroundColor: 'var(--surface-color)', padding: '1.5rem', borderRadius: 'var(--radius)', border: '1px solid var(--border-color)'}}>

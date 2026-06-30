@@ -77,7 +77,7 @@ export default function OrderView() {
   const categories = [...new Set(products.map(p => p.category))];
 
   return (
-    <div style={{display: 'flex', gap: '2rem', height: '100%'}}>
+    <div className="flex-responsive gap-6 h-full">
       
       {/* Products Catalog */}
       <div style={{flex: 2, overflowY: 'auto', paddingRight: '1rem'}} className="flex-col gap-6">
